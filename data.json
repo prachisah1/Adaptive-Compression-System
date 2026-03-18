@@ -1,0 +1,11 @@
+[
+    {
+        "file_name": "non submission.pdf",
+        "original_size": 50240,
+        "compressed_size": 46914,
+        "compression_ratio": 0.9338,
+        "time_taken": 0.0398,
+        "algorithm": "zlib",
+        "status": "success"
+    }
+]
