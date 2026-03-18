@@ -7,5 +7,61 @@
         "time_taken": 0.0398,
         "algorithm": "zlib",
         "status": "success"
+    },
+    {
+        "file_name": "non submission.pdf",
+        "original_size": 50240,
+        "compressed_size": 46914,
+        "compression_ratio": 0.9338,
+        "time_taken": 0.0323,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "non submission.pdf",
+        "original_size": 50240,
+        "compressed_size": 46914,
+        "compression_ratio": 0.9338,
+        "time_taken": 0.0291,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "encoded_image.png",
+        "original_size": 228803,
+        "compressed_size": 228713,
+        "compression_ratio": 0.9996,
+        "time_taken": 0.031,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "encoded_image.png",
+        "original_size": 228803,
+        "compressed_size": 228713,
+        "compression_ratio": 0.9996,
+        "time_taken": 0.036,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "encoded_image.png",
+        "original_size": 228803,
+        "compressed_size": 228808,
+        "compression_ratio": 1.0,
+        "time_taken": 0.2769,
+        "algorithm": "brotli (image optimized)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "encoded_image.png",
+        "original_size": 228803,
+        "compressed_size": 30641,
+        "compression_ratio": 0.1339,
+        "time_taken": 0.1826,
+        "algorithm": "image compression (lossy)",
+        "mode": "adaptive",
+        "status": "success"
     }
 ]

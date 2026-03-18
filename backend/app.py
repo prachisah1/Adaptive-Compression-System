@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from utils.file_handler import save_file
 from compressor.static_compressor import static_compress
 import json
+from compressor.adaptive_compressor import adaptive_compress
 
 app = Flask(__name__)
 
@@ -39,5 +40,20 @@ def save_result(result):
     with open("data.json", "w") as f:
         json.dump(data, f, indent=4)
 
+@app.route("/compress/adaptive", methods=["POST"])
+def compress_adaptive():
+    if "file" not in request.files:
+        return jsonify({"error": "No file uploaded"}), 400
+
+    file = request.files["file"]
+
+    file_path = save_file(file)
+
+    result = adaptive_compress(file_path)
+
+    save_result(result)
+
+    return jsonify(result)
+    
 if __name__ == "__main__":
     app.run(debug=True)
