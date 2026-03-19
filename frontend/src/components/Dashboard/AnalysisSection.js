@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid, 
-  PieChart, Pie, Cell, ResponsiveContainer 
+  PieChart, Pie, Cell, ResponsiveContainer ,  ScatterChart, Scatter 
 } from "recharts";
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#8884d8"];
@@ -74,7 +74,42 @@ const AnalysisSection = ({ title, data, pieData, themeColor, chartBarColors }) =
             </PieChart>
           </ResponsiveContainer>
         </div>
+<div style={{ width: "100%", height: "250px" }}>
+  <h4 style={{ fontSize: "0.9rem", color: "#94a3b8", marginBottom: "10px" }}>
+    Entropy vs Compression Ratio
+  </h4>
 
+  <ResponsiveContainer width="100%" height="100%">
+    <ScatterChart margin={{ top: 10, right: 20, bottom: 40, left: 10 }}>
+      <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+      
+      <XAxis 
+        type="number"
+        dataKey="entropy" 
+        name="Entropy"
+        stroke="#94a3b8"
+      />
+      
+      <YAxis 
+        type="number"
+        dataKey="compression_ratio" 
+        name="Compression Ratio"
+        stroke="#94a3b8"
+      />
+
+      <Tooltip 
+        cursor={{ strokeDasharray: "3 3" }}
+        contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155' }}
+      />
+
+      <Scatter 
+        name="Files"
+        data={data} 
+        fill={themeColor} 
+      />
+    </ScatterChart>
+  </ResponsiveContainer>
+</div>
       </div>
     </div>
   );

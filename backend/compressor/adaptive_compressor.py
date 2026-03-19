@@ -5,7 +5,7 @@ import time
 import os
 from PIL import Image
 import io
-
+from utils.entropy import calculate_entropy
 def compress_image(file_path):
     img = Image.open(file_path)
 
@@ -51,6 +51,7 @@ def adaptive_compress(file_path):
         end_time = time.time()
         time_taken = end_time - start_time
         time_ms = time_taken * 1000
+        entropy = calculate_entropy(data)
         return {
             "file_name": os.path.basename(file_path),
             "original_size": original_size,
@@ -60,6 +61,7 @@ def adaptive_compress(file_path):
             "time_ms": round(time_ms, 2),
             "algorithm": algorithm,
             "mode": "adaptive",
+            "entropy": round(entropy, 2),
             "status": "success"
         }
 

@@ -1,7 +1,7 @@
 import zlib
 import time
 import os
-
+from utils.entropy import calculate_entropy
 def static_compress(file_path):
     try:
         start_time = time.time()
@@ -27,6 +27,7 @@ def static_compress(file_path):
         compression_ratio = compressed_size / original_size
         time_taken = end_time - start_time
         time_ms = time_taken * 1000
+        entropy = calculate_entropy(data)
         return {
             "file_name": os.path.basename(file_path),
             "original_size": original_size,
@@ -35,6 +36,7 @@ def static_compress(file_path):
             "time_taken": round(time_taken, 4),
             "time_ms": round(time_ms, 2),
             "algorithm": "zlib",
+            "entropy": round(entropy, 2),
             "status": "success"
         }
 

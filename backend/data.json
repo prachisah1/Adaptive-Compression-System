@@ -270,5 +270,74 @@
         "algorithm": "zlib",
         "status": "success",
         "mode": "static"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.034,
+        "time_ms": 33.98,
+        "algorithm": "zlib",
+        "status": "success",
+        "mode": "static"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 33051,
+        "compression_ratio": 0.4269,
+        "time_taken": 0.1425,
+        "time_ms": 142.55,
+        "algorithm": "image compression (lossy)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77114,
+        "compression_ratio": 0.9959,
+        "time_taken": 0.0365,
+        "time_ms": 36.49,
+        "algorithm": "zlib + zstd (hybrid)",
+        "mode": "hybrid",
+        "status": "success"
+    },
+    {
+        "file_name": "Screenshot 2023-08-28 205957.png",
+        "original_size": 8416,
+        "compressed_size": 8049,
+        "compression_ratio": 0.9564,
+        "time_taken": 0.021,
+        "time_ms": 21.01,
+        "algorithm": "zlib",
+        "entropy": 7.87,
+        "status": "success",
+        "mode": "static"
+    },
+    {
+        "file_name": "Screenshot 2023-08-28 205957.png",
+        "original_size": 8416,
+        "compressed_size": 4852,
+        "compression_ratio": 0.5765,
+        "time_taken": 0.1488,
+        "time_ms": 148.8,
+        "algorithm": "image compression (lossy)",
+        "mode": "adaptive",
+        "entropy": 7.87,
+        "status": "success"
+    },
+    {
+        "file_name": "Screenshot 2023-08-28 205957.png",
+        "original_size": 8416,
+        "compressed_size": 8126,
+        "compression_ratio": 0.9655,
+        "time_taken": 0.0211,
+        "time_ms": 21.05,
+        "algorithm": "zstd (hybrid-high-entropy)",
+        "mode": "hybrid",
+        "entropy": 7.87,
+        "status": "success"
     }
 ]
