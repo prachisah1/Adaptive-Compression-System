@@ -48,7 +48,8 @@ The system follows a decoupled architecture:
    │   ├── app.py                  # Flask Entry Point
    │   ├── compressor/
    │   │   ├── static_compressor.py
-   │   │   └── adaptive_compressor.py
+   │   │   ├── adaptive_compressor.py
+   │   │   └── hybrid_compressor.py
    │   └── data.json               # Local Database
    ├── frontend/
    │   ├── src/
