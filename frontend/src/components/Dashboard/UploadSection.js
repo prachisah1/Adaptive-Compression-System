@@ -49,6 +49,10 @@ const UploadSection = ({ file, setFile, onUpload }) => {
         >
           Adaptive Mode
         </button>
+        <button onClick={() => onUpload("hybrid")}
+        style={btnStyle("#8e388e")}>
+  Hybrid Compress 
+</button>
       </div>
     </div>
   );

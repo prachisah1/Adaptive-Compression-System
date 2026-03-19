@@ -237,5 +237,38 @@
         "algorithm": "brotli (default)",
         "mode": "adaptive",
         "status": "success"
+    },
+    {
+        "file_name": "All_programs_(2)625[1].pdf",
+        "original_size": 173583,
+        "compressed_size": 135576,
+        "compression_ratio": 0.781,
+        "time_taken": 0.0472,
+        "time_ms": 47.23,
+        "algorithm": "zlib + zstd (hybrid)",
+        "mode": "hybrid",
+        "status": "success"
+    },
+    {
+        "file_name": "All_programs_(2)625[1].pdf",
+        "original_size": 173583,
+        "compressed_size": 132727,
+        "compression_ratio": 0.7646,
+        "time_taken": 1.5397,
+        "time_ms": 1539.73,
+        "algorithm": "brotli (default)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "All_programs_(2)625[1].pdf",
+        "original_size": 173583,
+        "compressed_size": 136479,
+        "compression_ratio": 0.7862,
+        "time_taken": 0.0467,
+        "time_ms": 46.69,
+        "algorithm": "zlib",
+        "status": "success",
+        "mode": "static"
     }
 ]

@@ -4,6 +4,7 @@ from compressor.static_compressor import static_compress
 import json
 from compressor.adaptive_compressor import adaptive_compress
 from flask_cors import CORS
+from compressor.hybrid_compressor import hybrid_compress
 app = Flask(__name__)
 CORS(app)
 @app.route("/")
@@ -54,6 +55,19 @@ def compress_adaptive():
     save_result(result)
 
     return jsonify(result)
+@app.route("/compress/hybrid", methods=["POST"])
+def compress_hybrid():
+    if "file" not in request.files:
+        return jsonify({"error": "No file uploaded"}), 400
+
+    file = request.files["file"]
+    file_path = save_file(file)
+
+    result = hybrid_compress(file_path)
+
+    save_result(result)
+
+    return jsonify(result)
 
 @app.route("/results", methods=["GET"])
 def get_results():
@@ -65,4 +79,4 @@ def get_results():
 
     return jsonify(data)  
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run() 
