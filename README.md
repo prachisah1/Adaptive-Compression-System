@@ -43,27 +43,26 @@ The system follows a decoupled architecture:
 ## 📂 Project Structure
 
 ```text
-WEB_D/
-├── Adaptive-Compression-System/
-│   ├── backend/
-│   │   ├── app.py                  # Flask Entry Point
-│   │   ├── compressor/
-│   │   │   ├── static_compressor.py
-│   │   │   └── adaptive_compressor.py
-│   │   └── data.json               # Local Database
-│   ├── frontend/
-│   │   ├── src/
-│   │   │   ├── components/
-│   │   │   │   └── Dashboard/      # Modular UI Components
-│   │   │   │       ├── AnalysisSection.js
-│   │   │   │       ├── AnalysisSummary.js
-│   │   │   │       ├── Dashboard.js
-│   │   │   │       ├── HistoryTable.js
-│   │   │   │       ├── MethodComparison.js
-│   │   │   │       ├── ResultCard.js
-│   │   │   │       └── UploadSection.js
-│   │   │   ├── App.js
-│   │   │   └── index.js
+ Adaptive-Compression-System/
+   ├── backend/
+   │   ├── app.py                  # Flask Entry Point
+   │   ├── compressor/
+   │   │   ├── static_compressor.py
+   │   │   └── adaptive_compressor.py
+   │   └── data.json               # Local Database
+   ├── frontend/
+   │   ├── src/
+   │   │   ├── components/
+   │   │   │   └── Dashboard/      # Modular UI Components
+   │   │   │       ├── AnalysisSection.js
+   │   │   │       ├── AnalysisSummary.js
+   │   │   │       ├── Dashboard.js
+   │   │   │       ├── HistoryTable.js
+   │   │   │       ├── MethodComparison.js
+   │   │   │       ├── ResultCard.js
+   │   │   │       └── UploadSection.js
+   │   │   ├── App.js
+   │   │   └── index.js
 ```
 
 ---
