@@ -130,4 +130,3 @@ npm start
 
 ## 📜 License
 This project is for academic and research purposes.
-```
