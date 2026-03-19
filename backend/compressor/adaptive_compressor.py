@@ -30,7 +30,7 @@ def adaptive_compress(file_path):
         if file_ext in [".txt", ".json", ".csv"]:
             compressed_data = zlib.compress(data)
             algorithm = "zlib (text optimized)"
-
+ 
         elif file_ext in [".jpg", ".png", ".jpeg"]:
             compressed_data = compress_image(file_path)
             algorithm = "image compression (lossy)"

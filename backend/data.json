@@ -1,0 +1,184 @@
+[
+    {
+        "file_name": "grok-video-174de218-eecf-49d3-ad4b-387596927f99 (1).mp4",
+        "original_size": 705854,
+        "compressed_size": 705859,
+        "compression_ratio": 1.0,
+        "time_taken": 1.2147,
+        "algorithm": "brotli (default)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "grok-video-174de218-eecf-49d3-ad4b-387596927f99 (1).mp4",
+        "original_size": 705854,
+        "compressed_size": 702872,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0837,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0423,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 33051,
+        "compression_ratio": 0.4269,
+        "time_taken": 0.3741,
+        "algorithm": "image compression (lossy)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "Screenshot 2023-06-11 143843.png",
+        "original_size": 62509,
+        "compressed_size": 15306,
+        "compression_ratio": 0.2449,
+        "time_taken": 0.067,
+        "algorithm": "image compression (lossy)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.026,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0296,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0324,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0235,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 33051,
+        "compression_ratio": 0.4269,
+        "time_taken": 0.0295,
+        "algorithm": "image compression (lossy)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0249,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0329,
+        "algorithm": "zlib",
+        "status": "success"
+    },
+    {
+        "file_name": "3hpf8ZMmvpav2QvPqQCY1Zl1O _8rrass6yjAPki3Dc=.jpg",
+        "original_size": 77430,
+        "compressed_size": 77102,
+        "compression_ratio": 0.9958,
+        "time_taken": 0.0264,
+        "algorithm": "zlib",
+        "status": "success",
+        "mode": "static"
+    },
+    {
+        "file_name": "Screenshot 2023-06-27 174744.png",
+        "original_size": 231057,
+        "compressed_size": 223749,
+        "compression_ratio": 0.9684,
+        "time_taken": 0.0557,
+        "algorithm": "zlib",
+        "status": "success",
+        "mode": "static"
+    },
+    {
+        "file_name": "All_programs_(2)625[1].pdf",
+        "original_size": 173583,
+        "compressed_size": 136479,
+        "compression_ratio": 0.7862,
+        "time_taken": 0.0442,
+        "algorithm": "zlib",
+        "status": "success",
+        "mode": "static"
+    },
+    {
+        "file_name": "All_programs_(2)625[1].pdf",
+        "original_size": 173583,
+        "compressed_size": 132727,
+        "compression_ratio": 0.7646,
+        "time_taken": 1.5823,
+        "algorithm": "brotli (default)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "March_Newsletter_Issue_draft[1][1][1].pptx",
+        "original_size": 46785329,
+        "compressed_size": 46503473,
+        "compression_ratio": 0.994,
+        "time_taken": 0.8823,
+        "algorithm": "zstd (large file optimized)",
+        "mode": "adaptive",
+        "status": "success"
+    },
+    {
+        "file_name": "March_Newsletter_Issue_draft[1][1][1].pptx",
+        "original_size": 46785329,
+        "compressed_size": 46324403,
+        "compression_ratio": 0.9901,
+        "time_taken": 4.8788,
+        "algorithm": "zlib",
+        "status": "success",
+        "mode": "static"
+    },
+    {
+        "file_name": "March_Newsletter_Issue_draft[1][1][1].pptx",
+        "original_size": 46785329,
+        "compressed_size": 46324403,
+        "compression_ratio": 0.9901,
+        "time_taken": 5.0116,
+        "algorithm": "zlib",
+        "status": "success",
+        "mode": "static"
+    }
+]
