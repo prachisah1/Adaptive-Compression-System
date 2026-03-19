@@ -11,7 +11,7 @@ function Dashboard() {
   const [result, setResult] = useState(null);
 
   const fetchResults = () => {
-    fetch("http://127.0.0.1:5000/results")
+    fetch("https://adaptive-compression-backend.onrender.com/results")
       .then(res => res.json())
       .then(data => setData(data));
   };
@@ -24,7 +24,7 @@ function Dashboard() {
     if (!file) { alert("Please select a file first!"); return; }
     const formData = new FormData();
     formData.append("file", file);
-    const res = await fetch(`http://127.0.0.1:5000/compress/${mode}`, { method: "POST", body: formData });
+    const res = await fetch(`https://adaptive-compression-backend.onrender.com/${mode}`, { method: "POST", body: formData });
     const resultData = await res.json();
     setResult(resultData);
     fetchResults();
