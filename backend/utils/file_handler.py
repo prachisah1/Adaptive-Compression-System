@@ -1,6 +1,6 @@
 import os
 
-UPLOAD_FOLDER = "uploads"
+UPLOAD_FOLDER = os.path.join(os.getcwd(), "uploads")
 
 def save_file(file):
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)
