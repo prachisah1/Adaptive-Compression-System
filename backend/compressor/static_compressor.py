@@ -25,13 +25,15 @@ def static_compress(file_path):
         end_time = time.time()
 
         compression_ratio = compressed_size / original_size
-
+        time_taken = end_time - start_time
+        time_ms = time_taken * 1000
         return {
             "file_name": os.path.basename(file_path),
             "original_size": original_size,
             "compressed_size": compressed_size,
             "compression_ratio": round(compression_ratio, 4),
-            "time_taken": round(end_time - start_time, 4),
+            "time_taken": round(time_taken, 4),
+            "time_ms": round(time_ms, 2),
             "algorithm": "zlib",
             "status": "success"
         }

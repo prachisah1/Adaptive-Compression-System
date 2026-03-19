@@ -1,10 +1,10 @@
 import './App.css';
-import Dashboard from "./Dashboard";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Adaptive Compression System </h1>
+      <h1> Compression System </h1>
 
       <Dashboard />
     </div>
