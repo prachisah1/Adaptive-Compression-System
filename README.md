@@ -82,7 +82,7 @@ The Adaptive module analyzes the file before processing:
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/prachisah1/Adaptive-Compression-System.git
 cd Adaptive-Compression-System
 ```
 
